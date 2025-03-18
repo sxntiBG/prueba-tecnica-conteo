@@ -1,36 +1,75 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Prueba Técnica - Desarrollador Junior React / Next.js
 
-## Getting Started
+Este proyecto es una prueba técnica para el puesto de Desarrollador Junior en React / Next.js. Se ha desarrollado una aplicación que permite a los usuarios crear productos, listarlos y gestionarlos con diferentes funcionalidades.
 
-First, run the development server:
+## 🚀 Características del Proyecto
 
+- Creación de productos con los siguientes campos:
+  - **Código** (number)
+  - **Nombre** (text)
+  - **Descripción** (text)
+  - **Cantidad** (number)
+  - **Fecha de creación** (date)
+- Visualización de productos en una lista.
+- Filtros para ordenar la lista por:
+  - Código
+  - Nombre
+  - Cantidad
+  - Fecha de creación
+- Funcionalidad para eliminar productos.
+- Diseño optimizado con una buena experiencia de usuario.
+- Interfaz responsiva para adaptarse a distintos dispositivos.
+
+## 🛠 Tecnologías Utilizadas
+
+- Next.js
+- Tailwind CSS para estilos
+
+## 📌 Instalación y Ejecución
+
+Sigue estos pasos para correr el proyecto en tu entorno local:
+
+### 1️⃣ Clonar el repositorio
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/tu-usuario/nombre-del-repo.git
+cd nombre-del-repo
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2️⃣ Instalar dependencias
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+### 3️⃣ Ejecutar el proyecto
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Luego, abre en tu navegador: **http://localhost:3000**
 
-## Learn More
+## 📂 Estructura del Proyecto
 
-To learn more about Next.js, take a look at the following resources:
+```
+├── public
+├── src
+│   ├── app
+│   │   ├── components
+│   │   │   ├── FormularioProducto.jsx
+│   │   │   ├── ItemProducto.jsx
+│   │   │   ├── ListaProductos.jsx
+│   │   ├── globals.css
+│   │   ├── layout.js
+│   │   ├── page.js
+├── package.json
+└── README.md
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📢 Notas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Se han aplicado buenas prácticas en React con `useState`.
+- El diseño es responsive, optimizado para móviles y pantallas grandes.
 
-## Deploy on Vercel
+## 📬 Contacto
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Si tienes alguna pregunta, no dudes en contactarme en **zapataospinasantiago8@gmail.com**.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
