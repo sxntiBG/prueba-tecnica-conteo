@@ -20,18 +20,6 @@ export default function FormularioProducto({
     const { name, value } = e.target;
     let nuevoValor = value;
 
-    // Limitar la cantidad de caracteres
-    const limites = {
-      codigo: 5,
-      nombre: 10,
-      descripcion: 25,
-      cantidad: 10,
-    };
-
-    if (nuevoValor.length > limites[name]) {
-      return; // Evita que el usuario escriba más de lo permitido
-    }
-
     setProducto({ ...producto, [name]: nuevoValor });
 
     // Validaciones dinámicas

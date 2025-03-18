@@ -21,23 +21,22 @@ export default function Home() {
   };
 
   return (
-    <div className="container bg-white w-[95%] p-10 mt-20 rounded-4xl shadow-2xl">
-<div className="container-header flex flex-col md:flex-row justify-between items-center mb-4">
-  <div className="text-center md:text-left">
-    <h1 className="text-4xl font-bold">Prueba técnica para Conteo</h1>
-    <p>Hecho por Santiago Zapata Ospina</p>
-  </div>
-  
-  <button
-    onClick={() => setMostrarModal(true)}
-    className="bg-black text-white px-4 py-2 rounded flex gap-4 items-center mt-4 md:mt-0"
-  >
-    <Plus color="white" size={16} />
-    Agregar Producto
-  </button>
-</div>
+    <div className="container bg-white w-[95%] p-10 mt-10 rounded-4xl shadow-2xl">
+      <div className="container-header flex flex-col md:flex-row justify-between items-center mb-4">
+        <div className="text-center md:text-left">
+          <h1 className="text-4xl font-bold">Prueba técnica para Conteo</h1>
+          <p>Hecho por Santiago Zapata Ospina</p>
+        </div>
 
-      {/* Fondo oscuro y desactivado */}
+        <button
+          onClick={() => setMostrarModal(true)}
+          className="bg-black text-white px-4 py-2 rounded flex gap-4 items-center mt-4 md:mt-0"
+        >
+          <Plus color="white" size={16} />
+          Agregar Producto
+        </button>
+      </div>
+
       {mostrarModal && (
         <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
           {/* Modal */}

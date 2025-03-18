@@ -51,6 +51,7 @@ Luego, abre en tu navegador: **http://localhost:3000**
 
 ```
 ├── public
+│   ├── screenshot.png
 ├── src
 │   ├── app
 │   │   ├── components
@@ -63,6 +64,14 @@ Luego, abre en tu navegador: **http://localhost:3000**
 ├── package.json
 └── README.md
 ```
+
+## 🖼️ Imagen del Proyecto
+
+![Imagen del Proyecto](public/screenshot.png)
+
+## 🌐 URL del Proyecto Desplegado
+
+[Ver Proyecto en Línea]()
 
 ## 📢 Notas
 
