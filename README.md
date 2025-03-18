@@ -67,7 +67,7 @@ Luego, abre en tu navegador: **http://localhost:3000**
 
 ## 🖼️ Imagen del Proyecto
 
-![Imagen del Proyecto](./public/screenshot.png)
+![Imagen del Proyecto](./public/Screenshot.png)
 
 ## 🌐 URL del Proyecto Desplegado
 
