@@ -32,7 +32,7 @@ Sigue estos pasos para correr el proyecto en tu entorno local:
 ### 1️⃣ Clonar el repositorio
 ```bash
 git clone https://github.com/sxntiBG/prueba-tecnica-conteo.git
-cd nombre-del-repo
+cd prueba-tecnica-conteo
 ```
 
 ### 2️⃣ Instalar dependencias
