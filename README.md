@@ -71,7 +71,7 @@ Luego, abre en tu navegador: **http://localhost:3000**
 
 ## 🌐 URL del Proyecto Desplegado
 
-[Ver Proyecto en Línea]()
+[Ver Proyecto en Línea](https://prueba-tecnica-conteo-pi.vercel.app/)
 
 ## 📢 Notas
 
